@@ -1,0 +1,28 @@
+{
+  "name": "packages",
+  "description": "",
+  "cookbook_versions": {
+
+  },
+  "json_class": "Chef::Environment",
+  "chef_type": "environment",
+  "default_attributes": {
+    "homebrew": {
+      "formulas": [
+        "awscli",
+        "azure-cli",
+        "git",
+        "bash-completion",
+        "jq",
+        "python",
+        "packer",
+        "packer-completion",
+        "terraform",
+        "tree",
+        "habitat-sh/habitat/hab",
+        "vagrant-completion",
+        "chef/okta_aws/okta_aws"
+      ]
+  }
+  }
+}

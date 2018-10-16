@@ -1,0 +1,3 @@
+#!/bin/bash
+
+sudo chef-client -z -E packages -o workstation
