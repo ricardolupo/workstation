@@ -22,7 +22,28 @@
         "habitat-sh/habitat/hab",
         "vagrant-completion",
         "chef/okta_aws/okta_aws"
+      ],
+    "workstation": {
+      "casks": [
+        "skitch",
+        "zoom",
+        "dropbox",
+        "google-chrome",
+        "chef/chef/chefdk",
+        "vagrant",
+        "atom",
+        "iterm2",
+        "visual-studio-code"
+      ],
+      "choco_pkgs": [
+        "conemu",
+        "cmder",
+        "atom",
+        "poshgit",
+        "habitat",
+        "7-zip"
       ]
+    }
   }
   }
 }

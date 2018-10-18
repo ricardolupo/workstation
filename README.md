@@ -7,6 +7,11 @@ will demonstrate 2 workflows; the Berks workflow, which will use chef-zero and
 the Chef Workstation workflow, which will simplify how dependencies are packaged
 and executed.
 
+*Before you get started*
+
+Be sure to install ChefDK on your workstation. Chef-DK contains the chef-client so you only need to download the one package. The download can be found here(https://downloads/chef.io/chef-dk)
+
+
 Berks workflow:
 You'll run the following to demonstrate the Berks workflow:
 
@@ -21,4 +26,5 @@ the command for you.
 
 
 
-TODO: Show Chef workstation workflow
+TODO: Add aws and azure setup
+Show Chef workstation workflow

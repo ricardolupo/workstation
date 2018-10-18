@@ -11,3 +11,8 @@ when 'mac_os_x'
 when 'windows'
   include_recipe 'workstation::windows'
 end
+
+chef_gem 'kitchen-azurerm' do
+  compile_time false
+  action :install
+end
