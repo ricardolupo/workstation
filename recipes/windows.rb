@@ -3,8 +3,6 @@
 # Recipe:: windows
 #
 # Copyright:: 2018, The Authors, All Rights Reserved.
-
-
 include_recipe 'chocolatey::default'
 
 chocolatey_package 'habitat' do
@@ -13,8 +11,8 @@ chocolatey_package 'habitat' do
   options '--force'
 end
 
-%w(conemu poshgit).each do |pkg|
-  package pkg do
+node['workstation']['choco_pkgs'].each do |choco_pkgs|
+  package choco_pkg do
     action :install
   end
 end

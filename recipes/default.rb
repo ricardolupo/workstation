@@ -11,7 +11,7 @@ when 'windows'
   include_recipe 'workstation::windows'
 end
 
-chef_gem 'kitchen-azurerm' do
+chef_gem "kitchen-azurem" do
   compile_time false
   action :install
 end

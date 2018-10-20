@@ -1,6 +1,11 @@
+default['workstation']['user'] = ENV['user']
+default['workstation']['homedir'] = ENV['home']
+
 default['homebrew']['formulas'] = [
   'awscli',
   'azure-cli',
+  'kubectl',
+  'docker',
   'git',
   'bash-completion',
   'jq',
@@ -24,6 +29,7 @@ default['workstation']['casks'] = [
   'atom',
   'iterm2',
   'visual-studio-code',
+  'minikube',
 ]
 
 default['workstation']['atom_pkg'] = [
@@ -42,5 +48,27 @@ default['workstation']['atom_pkg'] = [
 ]
 
 default['workstation']['choco_pkgs'] = [
-
+  '7zip.install',
+  'habitat',
+  'adobereader',
+  'atom',
+  'conemu',
+  'divvy',
+  'docker',
+  'f.lux',
+  'filezilla',
+  'git',
+  'poshgit',
+  'googlechrome',
+  'googledrive',
+  'notepadplusplus',
+  'putty',
+  'slack',
+  'steam',
+  'vagrant',
+  'vlc',
+  'windirstat',
+  'winscp',
+  'wireshark',
+  'zoom',
 ]
