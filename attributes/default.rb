@@ -48,8 +48,7 @@ default['workstation']['atom_pkg'] = [
 ]
 
 default['workstation']['choco_pkgs'] = [
-  '7zip.install',
-  'habitat',
+  '7zip',
   'adobereader',
   'atom',
   'conemu',
@@ -65,7 +64,6 @@ default['workstation']['choco_pkgs'] = [
   'putty',
   'slack',
   'steam',
-  'vagrant',
   'vlc',
   'windirstat',
   'winscp',
