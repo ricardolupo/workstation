@@ -17,6 +17,7 @@ default['homebrew']['formulas'] = [
   'habitat-sh/habitat/hab',
   'vagrant-completion',
   'chef/okta_aws/okta_aws',
+  'lastpass-cli',
 ]
 
 default['workstation']['casks'] = [
