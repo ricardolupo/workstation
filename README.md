@@ -20,7 +20,7 @@ Be sure to install ChefDK on your workstation. Chef-DK contains the chef-client 
 3. From the `./temp` subdirectory, simply run `chef-client -z`
 4. Profit
 
-[ Click here if you want to use this workflow with a Chef Server and a bootstrapped node](https://learn.chef.io/modules/managing-nodes-with-policyfiles#/)
+[ Click here if you want to use the Policyfile workflow with a Chef Server and a bootstrapped node ](https://learn.chef.io/modules/managing-nodes-with-policyfiles#/)
 
 ### Berks workflow ###
 You'll run the following to demonstrate the Berks workflow:
