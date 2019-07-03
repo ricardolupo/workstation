@@ -19,6 +19,7 @@ issues_url 'https://github.com/ricardolupo/workstation/issues'
 #
 source_url 'https://github.com/ricardolupo/workstation'
 
-depends 'homebrew' #not required in chef 15
+# homebrew cookbook dependency not required in chef 15
+depends 'homebrew'
 depends 'chocolatey'
 depends 'sc_vscode'
