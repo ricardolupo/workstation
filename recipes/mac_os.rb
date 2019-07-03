@@ -13,7 +13,6 @@ node['workstation']['casks'].each do |cask|
 end
 
 include_recipe 'homebrew::install_formulas'
-
 include_recipe 'workstation::atom'
 
 cookbook_file "#{node['workstation']['homedir']}/.iterm2_shell_integration.bash" do

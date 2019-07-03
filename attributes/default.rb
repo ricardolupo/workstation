@@ -5,7 +5,6 @@ default['homebrew']['formulas'] = [
   'awscli',
   'azure-cli',
   'kubectl',
-  'docker',
   'git',
   'bash-completion',
   'jq',
@@ -18,6 +17,7 @@ default['homebrew']['formulas'] = [
   'vagrant-completion',
   'chef/okta_aws/okta_aws',
   'lastpass-cli',
+  'kubernetes-helm',
 ]
 
 default['workstation']['casks'] = [
@@ -31,6 +31,8 @@ default['workstation']['casks'] = [
   'iterm2',
   'visual-studio-code',
   'minikube',
+  'google-cloud-sdk',
+  'visual-studio-code',
 ]
 
 default['workstation']['atom_pkg'] = [
